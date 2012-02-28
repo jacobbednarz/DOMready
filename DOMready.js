@@ -32,7 +32,7 @@
  *    - John Resig
  */
 
-var DOMready = (function() {
+var DOMready = {
 
     // Variables that get used throughout
     var loaded = FALSE,
@@ -62,6 +62,6 @@ var DOMready = (function() {
     // Feck, this is more annoying then planned
 
     // Anyone else?
-    window.onload = init;
+    window.onload = DOMready.init;
         
-}());
+};
