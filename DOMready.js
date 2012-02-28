@@ -1,7 +1,7 @@
 /**
  * DOMready.js
  *
- * Global DOMready method library. 
+ * Global DOMready method 
  *
  * Copyright (c) 2012 
  * Permission is hereby granted, free of charge, to any person 
